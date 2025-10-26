@@ -7,13 +7,13 @@ Alle wichtigen Änderungen an diesem Projekt werden in dieser Datei dokumentiert
 
 ### Added
 - BaseController
-- ErgebnisseController
-- SpielplankController
-- TabelleController
-- KreuztabellekController
-- FieberkurvekController
-- TemstatistikController
-- LigastatistikController
+- ErgebnisseController     ergebnisse.twig
+- SpielplankController     spielplan.twig
+- TabelleController        tabelle.twig
+- KreuztabellekController  kreuztabelle.twig
+- FieberkurvekController   fieberkurve.twig
+- TemstatistikController   teamstats.twig
+- LigastatistikController  ligastatistik.twig ???
 ### Changed
  
 ### Fixed
