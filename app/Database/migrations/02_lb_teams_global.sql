@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS lb_teams_global (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    kurz VARCHAR(50) DEFAULT NULL,
+    mittel VARCHAR(100) DEFAULT NULL,
+    UNIQUE KEY uniq_team_name (name)
+);

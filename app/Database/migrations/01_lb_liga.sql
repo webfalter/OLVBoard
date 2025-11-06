@@ -1,0 +1,8 @@
+-- Liga
+CREATE TABLE lb_liga (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    kurz VARCHAR(50) DEFAULT NULL,
+    datum TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE KEY uniq_liga_name (name)
+);
